@@ -17,7 +17,6 @@ public class doorUp : MonoBehaviour
     void Update()
     {
         doorPosition = door.transform.position;
-        Debug.Log("Going Up: " + doorPosition);
         if(doorPosition.y < 1.0){
             doorPosition.y += 0.005f;
             door.transform.position = doorPosition;
