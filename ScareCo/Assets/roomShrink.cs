@@ -17,9 +17,9 @@ public class roomShrink : MonoBehaviour
     {
         roomScale = room.transform.localScale;
         if(roomScale.x > 0.7){
-            roomScale.x -= 0.005f;
-            roomScale.y -= 0.005f;
-            roomScale.z -= 0.005f;
+            roomScale.x -= 0.0005f;
+            roomScale.y -= 0.0005f;
+            roomScale.z -= 0.0005f;
             room.transform.localScale = roomScale;
         }
     }

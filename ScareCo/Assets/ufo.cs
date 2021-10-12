@@ -13,6 +13,6 @@ public class ufo : MonoBehaviour
     // Update is called once per frame
 void Update ()
 {
-    transform.Rotate (0,0,45*Time.deltaTime); //rotates 45 degrees per second around z axis
+    transform.Rotate (45 * Time.deltaTime, 45 * Time.deltaTime, 0); //rotates 45 degrees per second around z axis
 }
 }

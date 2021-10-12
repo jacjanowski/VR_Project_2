@@ -19,9 +19,9 @@ public class roomGrow : MonoBehaviour
     {
         roomScale = room.transform.localScale;
         if(roomScale.x < 1){
-            roomScale.x += 0.005f;
-            roomScale.y += 0.005f;
-            roomScale.z += 0.005f;
+            roomScale.x += 0.001f;
+            roomScale.y += 0.001f;
+            roomScale.z += 0.001f;
             room.transform.localScale = roomScale;
         }
     }
